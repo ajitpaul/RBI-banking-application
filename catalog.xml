@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/rules/factorial1?WSDL" uri="xml-resources/web-service-references/factorial1/wsdl/localhost_8080/rules/factorial1.wsdl"/>
+    <system systemId="http://localhost:8080/rules/factorial1?xsd=1" uri="xml-resources/web-service-references/factorial1/wsdl/localhost_8080/rules/factorial1.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/bankserverrules/service?WSDL" uri="xml-resources/web-service-references/service/wsdl/localhost_8080/bankserverrules/service.wsdl"/>
+    <system systemId="http://localhost:8080/bankserverrules/service?xsd=1" uri="xml-resources/web-service-references/service/wsdl/localhost_8080/bankserverrules/service.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/factorial1/factorial1?WSDL" uri="xml-resources/web-service-references/factorial1/wsdl/localhost_8080/factorial1/factorial1.wsdl"/>
+    <system systemId="http://localhost:8080/factorial1/factorial1?xsd=1" uri="xml-resources/web-service-references/factorial1/wsdl/localhost_8080/factorial1/factorial1.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/Serverwebservice/rules?WSDL" uri="xml-resources/web-service-references/rules/wsdl/localhost_8080/Serverwebservice/rules.wsdl"/>
+    <system systemId="http://localhost:8080/Serverwebservice/rules?xsd=1" uri="xml-resources/web-service-references/rules/wsdl/localhost_8080/Serverwebservice/rules.xsd_1.xsd"/>
+    <system systemId="http://169.254.209.54:8080/Serverwebservice/rules?WSDL" uri="xml-resources/web-service-references/rules/wsdl/169.254.209.54_8080/Serverwebservice/rules.wsdl"/>
+    <system systemId="http://169.254.209.54:8080/Serverwebservice/rules?xsd=1" uri="xml-resources/web-service-references/rules/wsdl/169.254.209.54_8080/Serverwebservice/rules.xsd_1.xsd"/>
+</catalog>

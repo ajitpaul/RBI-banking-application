@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.2.0-1 (tags/2.2.0u1-7139; 2012-06-02T10:55:19+0000) JAXWS-RI/2.2.6-2 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://pack1/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://pack1/">
+
+<xs:element name="amdate" type="tns:amdate"/>
+
+<xs:element name="amdateResponse" type="tns:amdateResponse"/>
+
+<xs:element name="depositrule" type="tns:depositrule"/>
+
+<xs:element name="depositruleResponse" type="tns:depositruleResponse"/>
+
+<xs:element name="fundrule" type="tns:fundrule"/>
+
+<xs:element name="fundruleResponse" type="tns:fundruleResponse"/>
+
+<xs:element name="wdrawlow" type="tns:wdrawlow"/>
+
+<xs:element name="wdrawlowResponse" type="tns:wdrawlowResponse"/>
+
+<xs:element name="webrule" type="tns:webrule"/>
+
+<xs:element name="webruleResponse" type="tns:webruleResponse"/>
+
+<xs:complexType name="amdate">
+<xs:sequence>
+<xs:element name="amount" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="amdateResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="wdrawlow">
+<xs:sequence>
+<xs:element name="low" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="wdrawlowResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fundrule">
+<xs:sequence>
+<xs:element name="famount" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fundruleResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="depositrule">
+<xs:sequence>
+<xs:element name="y" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="depositruleResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="webrule">
+<xs:sequence>
+<xs:element name="x" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="webruleResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

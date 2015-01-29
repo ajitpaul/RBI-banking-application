@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+   <system systemId="http://169.254.209.54:8080/Serverwebservice/rules?WSDL" uri="wsdl/169.254.209.54_8080/Serverwebservice/rules.wsdl"/>
+    <system systemId="http://169.254.209.54:8080/Serverwebservice/rules?xsd=1" uri="wsdl/169.254.209.54_8080/Serverwebservice/rules.xsd_1.xsd"/>
+    <system systemId="http://169.254.209.54:8080/Serverwebservice/rules?WSDL" uri="wsdl/169.254.209.54_8080/Serverwebservice/rules.wsdl"/>
+    <system systemId="http://169.254.209.54:8080/Serverwebservice/rules?xsd=1" uri="wsdl/169.254.209.54_8080/Serverwebservice/rules.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/Serverwebservice/rules?WSDL" uri="wsdl/localhost_8080/Serverwebservice/rules.wsdl"/>
+    <system systemId="http://localhost:8080/Serverwebservice/rules?xsd=1" uri="wsdl/localhost_8080/Serverwebservice/rules.xsd_1.xsd"/>
+</catalog>
